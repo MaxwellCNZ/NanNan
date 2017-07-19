@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">喃喃</string>
+
+    <string name="art">艺术</string>
+    <string name="music">音乐</string>
+    <string name="learn">学习</string>
+    <string name="sport">运动</string>
+    <string name="minds">脑洞</string>
+    <string name="leisure">闲暇</string>
+
+</resources>

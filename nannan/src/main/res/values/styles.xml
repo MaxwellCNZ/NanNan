@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ImageTranslucentTheme" parent="AppTheme">
+
+    </style>
+
+    <!--可以更改导航栏颜色效果，有用的-->
+    <!--<style name="AppThemeBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/WaterBlue</item>     
+        <item name="colorPrimaryDark">@color/WaterBlue</item>
+    </style>-->
+
+
+    <!-- 自定义loading dialog -->
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--Dialog的windowFrame框为无-->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item><!-- 是否半透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item><!-- dim:模糊的 阴影效果 -->
+        <item name="android:windowIsFloating">true</item><!-- 是否漂现在activity上-->
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="MyCheckBox" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/HostBlackColor3</item>
+        <item name="colorControlActivated">@color/MasterColor</item>
+    </style>
+
+    <style name="ImageButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <!-- 蓝色按钮，带圆角 -->
+    <style name="BlueWithCorner">
+        <item name="android:background">@drawable/button_bluecorner_selector</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="pop_up_down_anim_style">
+        <item name="android:windowEnterAnimation">@anim/pop_down_show_anim</item>
+        <item name="android:windowExitAnimation">@anim/pop_up_miss_anim</item>
+    </style>
+
+    <style name="pop_down_up_anim_style">
+        <item name="android:windowEnterAnimation">@anim/pop_up_show_anim</item>
+        <item name="android:windowExitAnimation">@anim/pop_down_miss_anim</item>
+    </style>
+
+    <!--<style name="anim_activity_transformation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_in</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_out</item>
+    </style>-->
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackgroundColor">
+
+    <ImageView
+        android:id="@+id/iv_head_home_background"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/background_tree" />
+
+    <com.nannan.nannan.view.widget.MySRLayout
+        android:id="@+id/srl_pull_refresh_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.nannan.nannan.view.widget.ParallaxListView
+            android:id="@+id/pl_ListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:divider="@null"
+            android:listSelector="#0000"
+            android:overScrollMode="never">
+
+        </com.nannan.nannan.view.widget.ParallaxListView>
+    </com.nannan.nannan.view.widget.MySRLayout>
+</FrameLayout>

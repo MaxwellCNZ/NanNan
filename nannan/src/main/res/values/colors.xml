@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 很少用的颜色 -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="LesserColor_few">#91d6d6</color>
+
+    <!-- 以功能名来命名名字 -->
+    <color name="Transparency">#00000000</color>
+    <color name="MasterColor">#64c8c8</color>
+    <color name="MasterColor2">#a9dede</color>
+    <color name="MenuUn_clickColor">#6464c8c8</color>
+    <color name="BackgroundColor">#1464c8c8</color>
+    <color name="BackgroundColor2">#3c64c8c8</color>
+    <color name="BackgroundColor3">#aa5ab4b4</color>
+    <color name="WaveBackground">#46dedede</color>
+    <color name="PagerBackground">#4664c8c8</color>
+    <color name="TextColorHint">#b4b4b4</color>
+    <color name="TextColorBlack">#646464</color>
+    <color name="TextColorWhite">#ffffff</color>
+    <color name="TextColorWhite2">#f0f0f0</color>
+    <color name="TextColorWhite3">#bef0f0f0</color>
+    <color name="HostBlackColor">#505050</color>
+    <color name="HostBlackColor2">#646464</color>
+    <color name="HostBlackColor3">#787878</color>
+    <color name="HostBlackColor4">#aaaaaa</color>
+    <color name="SupportColor">#ff4646</color>
+    <color name="HomeCardColor">#e6ffff</color>
+    <color name="PaleWhite">#c8ffff</color>
+    <color name="ItemCardColor">#b4eeee</color>
+    <color name="Dialog_pressed">#afffff</color>
+    <color name="Dialog_normal">#c8ffff</color>
+    <color name="Coffee_black">#b41b0800</color>
+    <color name="Coffee_black_light">#b45c1e00</color>
+    <color name="LightBlue">#dc35aaff</color>
+
+
+    <color name="Pink">#f6a5b4</color>
+    <color name="Pink2">#f7b6c2</color>
+    <color name="Pink3">#f8c4ce</color>
+    <color name="Purple">#d8b2e5</color>
+    <color name="Purple2">#dfc0e9</color>
+    <color name="Purple3">#e5cded</color>
+    <color name="Cyan">#82e6c8</color>
+    <color name="Cyan2">#9aead2</color>
+    <color name="Cyan3">#aeeedb</color>
+    <color name="WaterBlue">#80c1d5</color>
+    <color name="WaterBlue2">#98ccdc</color>
+    <color name="WaterBlue3">#add6e3</color>
+    <color name="GreyBlue">#acd2e0</color>
+    <color name="GreyBlue2">#bcdae5</color>
+    <color name="GreyBlue3">#c9e1ea</color>
+    <color name="Orange">#dada92</color>
+    <color name="Orange2">#e0e0a7</color>
+    <color name="Orange3">#e6e6b8</color>
+    <color name="Green">#afe9a0</color>
+    <color name="Green2">#beecb2</color>
+    <color name="Green3">#cbf0c1</color>
+    <color name="Brown">#f1d2ac</color>
+    <color name="Brown2">#f3dabc</color>
+    <color name="Brown3">#f5e1c9</color>
+
+    <color name="Cream">#ceec8d</color>
+    <color name="Cream2">#d7efa3</color>
+    <color name="Cream3">#dff2b5</color>
+
+
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/NanNan.iml" filepath="$PROJECT_DIR$/NanNan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/editText/editText.iml" filepath="$PROJECT_DIR$/editText/editText.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nannan/nannan.iml" filepath="$PROJECT_DIR$/nannan/nannan.iml" />
+    </modules>
+  </component>
+</project>

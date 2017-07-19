@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/HomeCardColor"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/MasterColor"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:paddingTop="15dp"
+        android:text="详细资料"
+        android:textColor="@color/TextColorWhite"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_nickname_pop_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="昵称：   喃喃"
+        android:textColor="@color/HostBlackColor3"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_gender_pop_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="性别：   女"
+        android:textColor="@color/HostBlackColor3"
+        android:textSize="18sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/BackgroundColor2">
+
+        <TextView
+            android:id="@+id/tv_describe_pop_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="什么也没有哦  TAT"
+            android:textColor="@color/HostBlackColor2"
+            android:textSize="16sp" />
+    </ScrollView>
+
+</LinearLayout>

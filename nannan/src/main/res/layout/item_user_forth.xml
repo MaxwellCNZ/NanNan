@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/HomeCardColor"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:padding="1dp">
+
+        <com.nannan.nannan.view.widget.WaterWaveImageButton
+            android:id="@+id/wwiv_art"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@color/Pink"
+            android:src="@drawable/vector_art" />
+
+        <com.nannan.nannan.view.widget.WaterWaveImageButton
+            android:id="@+id/wwiv_learn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@color/GreyBlue"
+            android:src="@drawable/vector_learn" />
+
+
+        <com.nannan.nannan.view.widget.WaterWaveImageButton
+            android:id="@+id/wwiv_leisure"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@color/Cyan"
+            android:src="@drawable/vector_leisure" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:padding="1dp">
+
+        <com.nannan.nannan.view.widget.WaterWaveImageButton
+            android:id="@+id/wwiv_mind"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@color/Purple"
+            android:src="@drawable/vector_minds" />
+
+        <com.nannan.nannan.view.widget.WaterWaveImageButton
+            android:id="@+id/wwiv_sport"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@color/Brown"
+            android:src="@drawable/vector_sports" />
+
+        <com.nannan.nannan.view.widget.WaterWaveImageButton
+            android:id="@+id/wwiv_music"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="@color/Green"
+            android:src="@drawable/vector_music" />
+
+    </LinearLayout>
+
+    <com.nannan.nannan.view.widget.WaterWaveImageButton
+        android:id="@+id/wwiv_column_home"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="2dp"
+        android:background="@color/WaterBlue"
+        android:src="@drawable/vector_subject" />
+</LinearLayout>

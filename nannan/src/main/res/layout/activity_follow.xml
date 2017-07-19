@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackgroundColor2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@color/MasterColor2"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:id="@+id/ib_quit_user_follow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/transparent"
+            android:padding="10dp"
+            android:src="@drawable/vector_arrow_left" />
+
+        <TextView
+            android:id="@+id/tv_follow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ta 关注的人"
+            android:layout_gravity="center_vertical"
+            android:textSize="18sp"
+            android:textColor="@color/HostBlackColor3"/>
+
+    </LinearLayout>
+    <com.nannan.nannan.view.widget.NoScrollViewPager
+        android:id="@+id/vp_viewpager_follow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.nannan.nannan.view.widget.NoScrollViewPager>
+
+</LinearLayout>

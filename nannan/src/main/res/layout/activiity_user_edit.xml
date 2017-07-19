@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackgroundColor"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/MasterColor2">
+
+        <ImageButton
+            android:id="@+id/ib_quit_user_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            android:padding="10dp"
+            android:src="@drawable/vector_arrow_left" />
+        <TextView
+            android:layout_toRightOf="@+id/ib_quit_user_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="编辑"
+            android:textColor="@color/HostBlackColor3"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/ib_finish_user_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/transparent"
+            android:padding="10dp"
+            android:src="@drawable/vector_finish" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"
+            android:text="昵称:"
+            android:textColor="@color/HostBlackColor3"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/et_name_user_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/select_et_login"
+            android:hint="不超过9个字符"
+            android:maxLines="1"
+            android:maxLength="9"
+            android:padding="5dp"
+            android:selectAllOnFocus="true"
+            android:textColor="@color/HostBlackColor"
+            android:textColorHighlight="@color/BackgroundColor2"
+            android:textColorHint="@color/TextColorHint"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_gender_user_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_hint_user_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@drawable/select_radio_purple"
+            android:padding="5dp"
+            android:text="隐藏"
+            android:textColor="@color/Purple"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rb_man_user_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@drawable/select_radio_blue"
+            android:padding="5dp"
+            android:text="男"
+            android:textColor="@color/MasterColor"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rb_woman_user_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@drawable/select_radio_pink"
+            android:padding="5dp"
+            android:text="女"
+            android:textColor="@color/Pink"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/et_introduce_user_edit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="@color/BackgroundColor"
+        android:gravity="top"
+        android:hint="快来介绍你自己吧   : )"
+        android:padding="5dp"
+        android:selectAllOnFocus="true"
+        android:textColor="@color/HostBlackColor3"
+        android:textColorHighlight="@color/BackgroundColor2"
+        android:textColorHint="@color/TextColorHint"
+        android:textCursorDrawable="@drawable/color_cursor" />
+
+</LinearLayout>

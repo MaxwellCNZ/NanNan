@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.nannan.nannan.view.widget.NoScrollViewPager
+        android:id="@+id/vp_main_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </com.nannan.nannan.view.widget.NoScrollViewPager>
+    <!--<ScrollView
+        android:cardTodoId="@+cardTodoId/scroller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:cardTodoId="@+cardTodoId/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/hello_world"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+    </ScrollView>-->
+
+    <LinearLayout
+        android:id="@+id/ll_main_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:background="@color/HomeCardColor"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ib_main_home"
+            style="@style/ImageButtonStyle"
+            android:src="@drawable/vector_home_pressed" />
+
+        <ImageButton
+            android:id="@+id/ib_main_discover"
+            style="@style/ImageButtonStyle"
+            android:src="@drawable/vector_discover" />
+
+        <ImageButton
+            android:id="@+id/ib_main_attention"
+            style="@style/ImageButtonStyle"
+            android:src="@drawable/vector_attention" />
+
+        <ImageButton
+            android:id="@+id/ib_main_letter"
+            style="@style/ImageButtonStyle"
+            android:src="@drawable/vector_letter" />
+
+        <ImageButton
+            android:id="@+id/ib_main_more"
+            style="@style/ImageButtonStyle"
+            android:src="@drawable/vector_more" />
+
+    </LinearLayout>
+</FrameLayout>
